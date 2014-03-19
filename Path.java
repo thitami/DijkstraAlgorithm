@@ -32,7 +32,7 @@ public class Path implements IPath, IEdge
 	  {
 		   nodes.add(node);
 		   edges.addAll(node.getEdges());
-      }
+          }
 
 	  this.edges = edges;
  }
